@@ -5,18 +5,19 @@
 #include<fstream>
 #include<sstream>
 #include<string>
+#include "aClass.h"
 
 #pragma once
 
-class UserInterface{
+class UserInterface {
 	private:
 		std::string inFName;
 		std::string outFName;
-		bool fileIn; 
+		bool fileIn;
 		Class thisClass;
-		friend class Class;
+
 	public:
-		UserInterface();	
+		UserInterface();
 		void promptFileIO();
 		void addSingleUnit();
 		void addMultipleUnits();
@@ -29,4 +30,5 @@ class UserInterface{
 		void promptFileGeneration();
 		void readFile();
 		void primaryInterface();
+
 };
