@@ -13,18 +13,18 @@
 class Class : public Units {
 
 private:
-	std::vector<std::string> *typeVector = new std::vector<std::string>;
-	std::vector<Units> *newUnitVector = new std::vector<Units>;
+	std::vector<std::string>* typeVector = new std::vector<std::string>;
+	std::vector<Units>* newUnitVector = new std::vector<Units>;
 	int numUnits;
 	std::string outputFile;
 	std::string inputFile;
-	std::vector<double> *categorizedGrades = new std::vector<double>;
-	std::vector<double> *wGradeTotals = new std::vector<double>;
+	std::vector<double>* categorizedGrades = new std::vector<double>;
+	std::vector<double>* wGradeTotals = new std::vector<double>;
 	std::vector<double> weightVec;
-
+	
 public:
 
-	Class(double gP, std::string t, std::string n, int nUnits); 
+	Class(double gP, std::string t, std::string n, int nUnits);
 	Class(std::string outFName);
 	Class(std::string inFName, std::string outFName);
 	Class();
@@ -49,4 +49,6 @@ public:
 	double sumWeightedGrades();
 	void writeClassToFile(std::string fileName);
 	bool readClassFile(std::string fileName);
+
+	friend class UserInterface;
 };
