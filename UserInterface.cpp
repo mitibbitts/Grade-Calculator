@@ -2,9 +2,7 @@
 #include"Units.h"
 #include"aClass.h"
 
-//******************************Constructor*****************************
-//
-//
+
 //Constructs an empty user interface.
 UserInterface::UserInterface() {};	
 		
@@ -44,6 +42,8 @@ void UserInterface::promptFileIO(){
 	}		
 }
 
+
+//Prompt the user to add a single unit to the vector
 void UserInterface::addSingleUnit(){
 	std::string type;
 	double gradePossible;
@@ -77,6 +77,7 @@ void UserInterface::addSingleUnit(){
 	}	
 }
 
+// Prompt the user to add multiple units to the vector
 void UserInterface::addMultipleUnits(){
 	int numUnits;
 	std::string unitType;
@@ -102,6 +103,8 @@ void UserInterface::addMultipleUnits(){
 	}	
 }
 
+
+// Provide a menu for the user to selectd how they would like to enter classes
 void UserInterface::promptClassEntry(){
 	int unitSel;
 	std::cout << "Press 1 to enter multiple units" << std::endl; 
@@ -119,13 +122,18 @@ void UserInterface::promptClassEntry(){
 			std::cin >> unitSel;
 	}
 }
+
+// Get the output of the class to the console
 void UserInterface::getOut(){
 	thisClass.outputClass();
 }
 
+// Sort the class by type
 void UserInterface::sort(){
 	thisClass.sortByType();
 }
+
+// Prompt the user to alter the grade of a object which is already in the vector
 void UserInterface::addGrade(){
 	double gradeAchieved;
 	int unitSelection;
@@ -151,6 +159,7 @@ void UserInterface::addGrade(){
 	else{}
 }
 
+// Prompt the user to enter the categories for which they would like the grade
 void UserInterface::getGradePercentage(){
 	std::string type;
 	double gradePerc;
@@ -168,6 +177,7 @@ void UserInterface::getGradePercentage(){
 	else{}
 }
 
+// Prompt the user to enter the weights for each category
 void UserInterface::getTotalPercentage(){
 
 	double tempWeight;
@@ -190,7 +200,7 @@ void UserInterface::getTotalPercentage(){
 	std::cout << "Your Weighted Grade For the Class is " << weightedGrade << "%" << std::endl;
 }
 
-
+// Ask the user if they would like to create a save file
 void UserInterface::promptFileGeneration(){
 	std::string selection;
 	std::cout << "Would you like to generate a save file now? [Y/N] ";
@@ -200,6 +210,7 @@ void UserInterface::promptFileGeneration(){
 	}
 }
 
+// Ask the user if they would like to read a previously saved file into the program
 void UserInterface::readFile(){
 	int numCat;
 	std::string tempCat;
@@ -219,6 +230,7 @@ void UserInterface::readFile(){
 
 }
 
+// Loop through the options and provide the user with a main menu
 void UserInterface::primaryInterface(){
 	int menuSel;
 	std::string wPrompt;
@@ -226,7 +238,7 @@ void UserInterface::primaryInterface(){
 	readFile();
 	
 	std::cout << "What would you like to do next?" << std::endl;
-	std::string menu = "1. Add Units \n2. Edit Grades\n3. Get Category Percentages\n4. View Class Progress\n-1. Exit the calculator and view current grade ";
+	std::string menu = "1. Add Units \n2. Edit Grades\n3. Get Category Percentages\n4.View Class Progress\n-1. Exit the calculator and view current grade ";
 	std::cout << menu << std::endl;
 	std::cin >> menuSel;
 	while(menuSel != -1){
