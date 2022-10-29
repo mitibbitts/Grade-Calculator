@@ -1,7 +1,17 @@
 # Grade-Calculator
 Member Names: 
 
-Summary:
+## Summary:
+This implementation is meant to be simple to use. We identified a few metrics that we felt would be most useful to know during the course of a semester.
+We also determined that we wanted to be able to read and write save files because this would allow us to significantly reduce the amount of time a user would
+need to spend entering data for a class which they have already previously calculated. 
+
+## Features: 
+- Read and Write a Save file. 
+- Edit and create new units.
+- Get the completion percentage of the class
+- View the category grades for the class
+- View the weighted category grades and the weighted total grade for the class
 
 ## Pseudocode:
 -class Units:
