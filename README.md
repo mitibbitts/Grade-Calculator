@@ -47,8 +47,8 @@ class UserInterface:
 ## Flowchart:
 
 
-  Inputs: a single file or none
-  Outputs: same file, generated file, or none
+  ### Inputs: a single file or none
+  ### Outputs: same file, generated file, or none
   Reason: 
 
-How to compile: g++ main.cpp UserInterface.cpp Units.cpp aClass.cpp -o prog; when run the program will ask for an imput file, if no it will ask for a name for the output file. Note: when using an imput file the program will ask the number of catagories (type) included, make sure to put the number of types not number of assignments.
+### How to compile: g++ main.cpp UserInterface.cpp Units.cpp aClass.cpp -o prog; when run the program will ask for an imput file, if no it will ask for a name for the output file. Note: when using an imput file the program will ask the number of catagories (type) included, make sure to put the number of types not number of assignments.
