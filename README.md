@@ -14,7 +14,7 @@ need to spend entering data for a class which they have already previously calcu
 - View the weighted category grades and the weighted total grade for the class
 
 ## Pseudocode:
-- class Units:
+class Units:
  - instantiate units with:
     1. max grade possible
     2. grade earned
@@ -22,7 +22,7 @@ need to spend entering data for a class which they have already previously calcu
     4. name of unit
     5. whether or not the unis has been grade
 
-- class Class:
+class Class:
  -  create a vector of units
  -  add units
  -  modify grades
@@ -33,7 +33,7 @@ need to spend entering data for a class which they have already previously calcu
  -  write the vector to a file
 
 
-- class UserInterface:
+class UserInterface:
 -  ask whether a file should be read
 -  either generate a blank class or one with the contents of the file
 -  prompt the user if they would like to operate on the contents of the class
