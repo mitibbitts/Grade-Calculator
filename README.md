@@ -46,12 +46,6 @@ need to spend entering data for a class which they have already previously calcu
 
 ## Flowchart:
 
-## Features: 
-- Read and Write a Save file. 
-- Edit and create new units.
-- Get the completion percentage of the class
-- View the category grades for the class
-- View the weighted category grades and the weighted total grade for the class
 
   Inputs:
   Outputs:
