@@ -14,13 +14,13 @@ need to spend entering data for a class which they have already previously calcu
 - View the weighted category grades and the weighted total grade for the class
 
 ## Pseudocode:
--class Units:
+- class Units:
  - instantiate units with:
-  -   max grade possible
-   -  grade earned
-    - category of unit
-     -name of unit
-     -whether or not the unis has been grade
+    1. max grade possible
+    2. grade earned
+    3. category of unit
+    4. name of unit
+    5. whether or not the unis has been grade
 
 -class Class:
  -  create a vector of units
