@@ -1,0 +1,22 @@
+5 5 lab1 Lab Graded
+5 5 lab2 Lab Graded
+5 5 lab3 Lab Graded
+5 5 lab4 Lab Graded
+5 5 lab5 lab Graded
+5 5 lab6 Lab Graded
+5 5 lab7 Lab Graded
+5 0 lab8 Lab Ungraded
+5 0 lab9 Lab Ungraded
+5 0 lab10 Lab Ungraded
+100 50.5 Assignment1 Assignment Graded
+100 100 Assignment2 Assignment Graded
+100 0 Assignment3 Assignment Ungraded
+100 0 Assignment4 Assignment Ungraded
+100 0 Assignment5 Assignment Ungraded
+2.5 0 Mec1 Mec Ungraded
+1.5 0 Mec2 Mec Ungraded
+350 0 TermProject Project Ungraded
+100 0 FinalTest Test Ungraded
+
+
+
