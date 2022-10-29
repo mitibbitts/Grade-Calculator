@@ -1,5 +1,5 @@
 # Grade-Calculator
-Member Names: 
+Member Names: Matthew Tibbitts
 
 ## Summary:
 This implementation is meant to be simple to use. We identified a few metrics that we felt would be most useful to know during the course of a semester.
