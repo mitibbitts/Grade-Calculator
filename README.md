@@ -51,4 +51,4 @@ class UserInterface:
   Taking from a set file input lets the program run as intended if formatted correctly, if the user does not have a file already it will generate one in the correct format.
 
 ### How to compile: 
-g++ -o main main.cpp; <br> when run the program will ask for an input file, if no it will ask for a name for the output file. <br> <strong>Note: when using an input file the program will ask the number of catagories (type) included, make sure to put the number of types not number of assignments. </strong>
+g++ -o main main.cpp <br> when run the program will ask for an input file, if no it will ask for a name for the output file. <br> <strong>Note: when using an input file the program will ask the number of catagories (type) included, make sure to put the number of types not number of assignments. </strong>
