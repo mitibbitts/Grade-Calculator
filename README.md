@@ -47,7 +47,7 @@ class UserInterface:
   a single file or none
   ### Outputs: 
   same file, generated file, or none
-  ###Reason: 
+  ### Reason: 
   Taking from a set file input lets the program run as intended if formatted correctly, if the user does not have a file already it will generate one in the correct format.
 
 ### How to compile: 
