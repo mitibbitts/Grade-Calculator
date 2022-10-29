@@ -226,7 +226,7 @@ void UserInterface::primaryInterface(){
 	readFile();
 	
 	std::cout << "What would you like to do next?" << std::endl;
-	std::string menu = "1. Add Units \n2. Edit Grades\n3. Get Category Percentages\n4.View Class Progress\n-1. Exit the calculator and view current grade ";
+	std::string menu = "1. Add Units \n2. Edit Grades\n3. Get Category Percentages\n4. View Class Progress\n-1. Exit the calculator and view current grade ";
 	std::cout << menu << std::endl;
 	std::cin >> menuSel;
 	while(menuSel != -1){
