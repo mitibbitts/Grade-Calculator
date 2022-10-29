@@ -4,7 +4,7 @@ Member Names: Matthew Tibbitts, Beckett Maestas, Jacob Ly.
 ## Summary:
 This implementation is meant to be simple to use. We identified a few metrics that we felt would be most useful to know during the course of a semester.
 We also determined that we wanted to be able to read and write save files because this would allow us to significantly reduce the amount of time a user would
-need to spend entering data for a class which they have already previously calculated. Link to see all user contributions: <a href= "https://github.com/mitibbitts/Grade-Calculator/commits/main"> Here </a> 
+need to spend entering data for a class which they have already previously calculated. Link to see all contributions: <a href= "https://github.com/mitibbitts/Grade-Calculator/commits/main"> Here </a> 
 
 ## Features: 
 - Read and Write a Save file. 
@@ -48,7 +48,7 @@ class UserInterface:
   ### Outputs: 
   same txt file, generated txt file, or none
   ### Reason: 
-  Taking from a set file input lets the program run as intended if formatted correctly, if the user does not have a file already it will generate one in the correct format.
+  The main reason for using an input/output file is ease of use, this set up allows users to not have to input the same assignments repeatedly, as well as save to a file once there are updates to the data. As stated in the summary, our goal was to have a program that is easy to use while not wasting user time re-entering data.
 
 ### How to compile: 
 g++ -o main main.cpp <br> when run the program will ask for an input file, if no it will ask for a name for the output file. <br> <strong>Note: when using an input file the program will ask the number of catagories (type) included, make sure to put the number of types not number of assignments. </strong>
