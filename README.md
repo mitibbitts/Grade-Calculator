@@ -1,5 +1,5 @@
 # Grade-Calculator
-Member Names: Matthew Tibbitts
+Member Names: Matthew Tibbitts, Beckett Maestas
 
 ## Summary:
 This implementation is meant to be simple to use. We identified a few metrics that we felt would be most useful to know during the course of a semester.
