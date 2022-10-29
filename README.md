@@ -3,16 +3,16 @@ Member Names:
 
 Summary:
 
-# Pseudocode:
-class Units {
+## Pseudocode:
+class Units:
   instantiate units with:
      max grade possible
      grade earned
      category of unit
      name of unit
      whether or not the unis has been grade
-}
-class Class {
+
+class Class:
    create a vector of units
    add units
    modify grades
@@ -22,8 +22,8 @@ class Class {
    sort the units by type
    write the vector to a file
 
-}
-class UserInterface {
+
+class UserInterface:
   ask whether a file should be read
   either generate a blank class or one with the contents of the file
   prompt the user if they would like to operate on the contents of the class
@@ -32,7 +32,7 @@ class UserInterface {
   ask the user if they would like to write the class to the file to be saved for later
   
   end
-}
+
 
 Flowchart:
 
