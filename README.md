@@ -4,7 +4,7 @@ Member Names: Matthew Tibbitts, Beckett Maestas, Jacob Ly.
 ## Summary:
 This implementation is meant to be simple to use. We identified a few metrics that we felt would be most useful to know during the course of a semester.
 We also determined that we wanted to be able to read and write save files because this would allow us to significantly reduce the amount of time a user would
-need to spend entering data for a class which they have already previously calculated. 
+need to spend entering data for a class which they have already previously calculated. Link to see all user contributions: <a href= "https://github.com/mitibbitts/Grade-Calculator/commits/main"> Here </a> 
 
 ## Features: 
 - Read and Write a Save file. 
